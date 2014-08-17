@@ -1,5 +1,5 @@
 {
-   "abstract" : "Blah blah blah",
+   "abstract" : "A CPAN cake on CPAN. ",
    "author" : [
       "Mike Greb <michael@thegrebs.com>"
    ],
@@ -36,6 +36,7 @@
       },
       "runtime" : {
          "requires" : {
+            "MIME::Base64" : "0",
             "perl" : "5.008005"
          }
       },
@@ -46,6 +47,20 @@
       }
    },
    "release_status" : "stable",
-   "version" : "0.01"
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/mikegrb/Acme-Cake/issues"
+      },
+      "homepage" : "https://github.com/mikegrb/Acme-Cake",
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/mikegrb/Acme-Cake.git",
+         "web" : "https://github.com/mikegrb/Acme-Cake"
+      }
+   },
+   "version" : "0.01",
+   "x_contributors" : [
+      "Mike Greb <mikegrb@cpan.org>"
+   ]
 }
 

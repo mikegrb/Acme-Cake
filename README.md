@@ -1,14 +1,18 @@
 # NAME
 
-Acme::Cake - Blah blah blah
+Acme::Cake - A CPAN cake on CPAN. 
 
 # SYNOPSIS
 
     use Acme::Cake;
+    my $cake = Acme::Cake->bake();
+    # $cake now contains a jpg of a CPAN cake.
 
 # DESCRIPTION
 
-Acme::Cake is
+Acme::Cake provides a cake in celebration of the first celebrated CPAN day,
+the 19th aniversary of the first upload to CPAN.  See
+[http://cpan.io/ref/history.html](http://cpan.io/ref/history.html) for more on the history of Perl.
 
 # AUTHOR
 
@@ -22,5 +26,3 @@ Copyright 2014- Mike Greb
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.
-
-# SEE ALSO
